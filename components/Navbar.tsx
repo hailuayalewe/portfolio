@@ -56,7 +56,10 @@ export default function Navbar() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400"
+              className="p-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors rounded-lg hover:bg-gray-100 dark:hover:bg-slate-800"
+              aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               {mobileMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,14 +75,14 @@ export default function Navbar() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
-            <div className="flex flex-col space-y-4">
+          <div id="mobile-menu" className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700 animate-slide-down">
+            <div className="flex flex-col space-y-2">
               {sections.map((section) => (
                 <a
                   key={section.id}
                   href={`#${section.id}`}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium px-2 py-2"
+                  className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium px-4 py-3 rounded-lg hover:bg-gray-100 dark:hover:bg-slate-800"
                 >
                   {section.label}
                 </a>
