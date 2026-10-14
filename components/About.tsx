@@ -69,7 +69,7 @@ export default function About() {
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between gap-1">
                   <span>Languages</span>
-                  <span className="font-medium text-gray-900 dark:text-white text-right sm:text-left">Amharic (Fluent), English (Working proficiency)</span>
+                  <span className="font-medium text-gray-900 dark:text-white text-right sm:text-left">Amharic, English</span>
                 </div>
               </div>
             </div>
