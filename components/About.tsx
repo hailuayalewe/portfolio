@@ -55,21 +55,21 @@ export default function About() {
                 Personal Information
               </h3>
               <div className="space-y-3 text-gray-600 dark:text-gray-400">
-                <div className="flex justify-between">
+                <div className="flex flex-col sm:flex-row sm:justify-between gap-1">
                   <span>Location</span>
-                  <span className="font-medium text-gray-900 dark:text-white">Addis Ababa, Ethiopia</span>
+                  <span className="font-medium text-gray-900 dark:text-white text-right sm:text-left">Addis Ababa, Ethiopia</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex flex-col sm:flex-row sm:justify-between gap-1">
                   <span>Phone</span>
-                  <span className="font-medium text-gray-900 dark:text-white">+251 900 923 596 / +251 992 027 3743</span>
+                  <span className="font-medium text-gray-900 dark:text-white text-right sm:text-left truncate">+251 900 923 596 / +251 992 027 3743</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex flex-col sm:flex-row sm:justify-between gap-1">
                   <span>Email</span>
-                  <span className="font-medium text-gray-900 dark:text-white">hailuayaleweshete@gmail.com</span>
+                  <span className="font-medium text-gray-900 dark:text-white text-right sm:text-left truncate">hailuayaleweshete@gmail.com</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex flex-col sm:flex-row sm:justify-between gap-1">
                   <span>Languages</span>
-                  <span className="font-medium text-gray-900 dark:text-white">Amharic (Fluent), English (Working proficiency)</span>
+                  <span className="font-medium text-gray-900 dark:text-white text-right sm:text-left">Amharic (Fluent), English (Working proficiency)</span>
                 </div>
               </div>
             </div>

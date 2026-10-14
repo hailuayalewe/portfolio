@@ -45,45 +45,47 @@ export default function Hero() {
                 View Projects
               </a>
             </div>
-            <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-4 sm:gap-6 text-sm text-gray-600 dark:text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
+              <div className="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-primary-600 dark:text-primary-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
                 </svg>
-                <span>Addis Ababa, Ethiopia</span>
+                <span className="hidden xs:block">Addis Ababa, Ethiopia</span>
+                <span className="xs:hidden">Addis Ababa</span>
               </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-primary-600 dark:text-primary-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span>hailuayaleweshete@gmail.com</span>
+                <span className="truncate max-w-[180px]">hailuayaleweshete@gmail.com</span>
               </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-primary-600 dark:text-primary-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span>+251 900 923 596</span>
+                <span className="hidden xs:block">+251 900 923 596</span>
+                <span className="xs:hidden">+251 900 923 596</span>
               </div>
             </div>
           </div>
 
           <div className="relative">
             <div className="relative z-10 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-6 lg:p-8 border border-gray-100 dark:border-gray-700">
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+              <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
                 <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">2023</div>
+                  <div className="text-xl xs:text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">2023</div>
                   <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Since</div>
                 </div>
                 <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">4+</div>
+                  <div className="text-xl xs:text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">4+</div>
                   <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Projects</div>
                 </div>
                 <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">8</div>
+                  <div className="text-xl xs:text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">8</div>
                   <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Platforms</div>
                 </div>
                 <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">10+</div>
+                  <div className="text-xl xs:text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">10+</div>
                   <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Technologies</div>
                 </div>
               </div>

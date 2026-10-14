@@ -19,7 +19,7 @@ export default function Contact() {
         </svg>
       ),
       title: 'Phone',
-      value: '+251 900 923 596 / +251 92 027 3743',
+      value: '+251 900 923 596 / +251 992 027 3743',
       link: 'tel:+251900923596',
     },
     {
@@ -55,14 +55,14 @@ export default function Contact() {
                 href={item.link || '#'}
                 className={item.link ? 'group flex items-center gap-4 p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300' : 'group flex items-center gap-4 p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700'}
               >
-                <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg text-primary-600 dark:text-primary-400 group-hover:bg-primary-600 group-hover:text-white transition-colors">
+                <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg text-primary-600 dark:text-primary-400 group-hover:bg-primary-600 group-hover:text-white transition-colors flex-shrink-0">
                   {item.icon}
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                  <p className="text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors truncate">
                     {item.value}
                   </p>
                 </div>
