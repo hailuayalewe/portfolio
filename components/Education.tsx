@@ -13,13 +13,13 @@ export default function Education() {
 
         <div className="max-w-3xl mx-auto">
           <div className="relative">
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-primary-200 dark:bg-primary-800" />
+            <div className="hidden lg:block absolute left-8 top-0 bottom-0 w-0.5 bg-primary-200 dark:bg-primary-800" />
             
-            <div className="relative ml-16">
+            <div className="relative lg:ml-16">
               <div className="relative pb-12 last:pb-0">
-                <div className="absolute left-[-16px] top-0 w-8 h-8 bg-primary-600 rounded-full border-4 border-white dark:border-slate-900 shadow-lg" />
+                <div className="hidden lg:block absolute left-[-16px] top-0 w-8 h-8 bg-primary-600 rounded-full border-4 border-white dark:border-slate-900 shadow-lg" />
                 
-                <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 border border-gray-100 dark:border-gray-700 ml-4">
+                <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-6 border border-gray-100 dark:border-gray-700 lg:ml-4">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">BSc in Information Systems</h3>
                     <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 text-sm font-medium rounded-full">

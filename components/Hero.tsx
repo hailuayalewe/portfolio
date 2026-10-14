@@ -45,7 +45,7 @@ export default function Hero() {
                 View Projects
               </a>
             </div>
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-gray-600 dark:text-gray-400">
+            <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-4 sm:gap-6 text-sm text-gray-600 dark:text-gray-400">
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
@@ -68,23 +68,23 @@ export default function Hero() {
           </div>
 
           <div className="relative">
-            <div className="relative z-10 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-8 border border-gray-100 dark:border-gray-700">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-3xl sm:text-4xl font-bold text-primary-600 dark:text-primary-400">2023</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Since</div>
+            <div className="relative z-10 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl p-6 lg:p-8 border border-gray-100 dark:border-gray-700">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+                <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
+                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">2023</div>
+                  <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Since</div>
                 </div>
-                <div className="text-center p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-3xl sm:text-4xl font-bold text-primary-600 dark:text-primary-400">4+</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Projects</div>
+                <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
+                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">4+</div>
+                  <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Projects</div>
                 </div>
-                <div className="text-center p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-3xl sm:text-4xl font-bold text-primary-600 dark:text-primary-400">8</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Platforms</div>
+                <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
+                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">8</div>
+                  <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Platforms</div>
                 </div>
-                <div className="text-center p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
-                  <div className="text-3xl sm:text-4xl font-bold text-primary-600 dark:text-primary-400">10+</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Technologies</div>
+                <div className="text-center p-3 lg:p-4 bg-primary-50 dark:bg-primary-900/30 rounded-xl">
+                  <div className="text-2xl lg:text-3xl font-bold text-primary-600 dark:text-primary-400">10+</div>
+                  <div className="text-xs lg:text-sm text-gray-600 dark:text-gray-400">Technologies</div>
                 </div>
               </div>
             </div>
