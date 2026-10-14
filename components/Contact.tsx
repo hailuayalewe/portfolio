@@ -19,7 +19,7 @@ export default function Contact() {
         </svg>
       ),
       title: 'Phone',
-      value: '+251 900 923 596 / +251 992 027 3743',
+      value: '+251 900 923 596 / +251 92 027 3743',
       link: 'tel:+251900923596',
     },
     {
